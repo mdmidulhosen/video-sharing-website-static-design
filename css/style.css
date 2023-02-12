@@ -34,7 +34,12 @@ ul li{
     width: 50%;
     font-family: 'Roboto', sans-serif;
 }
-
+p{
+    font-family: 'Poppins', sans-serif;  
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
 .poppins{
     font-family: 'Poppins', sans-serif;
 }
@@ -99,6 +104,133 @@ form.d-flex.align-center.btn-left-search {
 .video-wrapper.pt-4.pb-4 {
     border-bottom: 1px solid #e5e5e5;
 }
+.fade {
+    background: #000000a6;
+}
+p.refer-item {
+    padding: 10px;
+    margin: 0;
+}
+i.fa-solid.fa-magnifying-glass {
+    margin-right: 10px;
+}
+.refer-items {
+    margin-top: 10px;
+}
+
+/* tag cloud button css start from here  */
+.refer-tags button {
+    margin: 8px 4px;
+}
+.refer-tags button:nth-child(1){
+    background: #00C851;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-weight: 600;
+    box-shadow: 5px 6px 21px -6px black;
+}
+.refer-tags button:nth-child(2){
+    background: #2BBBAD;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-weight: 600;
+    box-shadow: 5px 6px 21px -6px black;
+}
+.refer-tags button:nth-child(3){
+    background: #42A5F5;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-weight: 600;
+    box-shadow: 5px 6px 21px -6px black;
+}
+.refer-tags button:nth-child(4){
+    background: #EF5350;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-weight: 600;
+    box-shadow: 5px 6px 21px -6px black;
+}
+.refer-tags button:nth-child(5){
+    background: #6166f3;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-weight: 600;
+    box-shadow: 5px 6px 21px -6px black;
+}
+.refer-tags button:nth-child(6){
+    background: #bb61f3;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-weight: 600;
+    box-shadow: 5px 6px 21px -6px black;
+}
+.refer-tags button:nth-child(7){
+    background: #29bd79;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-weight: 600;
+    box-shadow: 5px 6px 21px -6px black;
+}
+.refer-tags button:nth-child(8){
+    background: #718eb1;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-weight: 600;
+    box-shadow: 5px 6px 21px -6px black;
+}
+.refer-tags button:nth-child(9){
+    background: #5634bd;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-weight: 600;
+    box-shadow: 5px 6px 21px -6px black;
+}
+.refer-tags button:nth-child(10){
+    background: #3c3f66;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-weight: 600;
+    box-shadow: 5px 6px 21px -6px black;
+}
+.trend-now-text {
+    margin: 12px 0!important;
+}
+
+
+/* tag cloud button css end from here  */
+
+
+
 
 @media (min-width: 320px) and (max-width: 767px) {
   
@@ -126,15 +258,16 @@ form.d-flex.align-center.btn-left-search {
         border-bottom: 1px solid #e5e5e5;
     }
     h2.cat-title {
-        border-bottom: 1px solid black;
+        border-bottom: 2px solid black;
         padding-bottom: 5px;
+        display: inline-block;
     }
     img.img-fluid.auth-img {
         max-width: 20%;
         border-radius: 35px;
     }
     .video-title {
-        margin-top: 10px;
+        margin-top: 10px!important;
     }
     .auth-name{
         margin-left: 10px;
